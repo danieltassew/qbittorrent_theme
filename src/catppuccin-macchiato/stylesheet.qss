@@ -545,9 +545,14 @@ QAbstractSpinBox::down-button:pressed {
 }
 
 /* CheckBox */
-QCheckBox::indicator, QGroupBox::indicator, QTreeView::indicator {
+QCheckBox::indicator, QGroupBox::indicator {
   width: 17px;
 	height: 17px;
+}
+
+QTreeView::indicator {
+  width: 18px;
+	height: 18px;
 }
 
 QCheckBox::indicator:checked, QGroupBox::indicator:checked, QTreeView::indicator:checked {
