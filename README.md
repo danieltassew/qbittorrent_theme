@@ -43,6 +43,13 @@
 3. Tick the **"use custom UI theme"** checkbox and select your chosen `.qbtheme` theme file.
 4. Click **Apply** and restart qBittorrent for the changes to take effect.
 
+### How to compile .qbtheme (Windows)
+
+Compile resources.qrc using Qt rcc on the command line.
+
+Example:
+rcc resources.qrc -o catppuccin-macchiato.qbtheme -binary
+
 ### WebUI
 
 The Catppuccin theme for the WebUI is only available via
